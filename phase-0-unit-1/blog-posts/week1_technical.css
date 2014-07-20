@@ -1,0 +1,23 @@
+body {
+	 background-color: #9B9B9B;} 
+	
+
+#banner img {
+	height: 100%
+	border: 3px solid black;
+	width:100%%}
+#header {
+	text-align: center;
+}
+#content {
+	margin:0;
+	padding:0;
+	height:100%;
+	font-family: Impact;
+}
+#footer{
+	height: 50px;
+	background-color: black;
+    color: white; 
+    padding: left;
+}
