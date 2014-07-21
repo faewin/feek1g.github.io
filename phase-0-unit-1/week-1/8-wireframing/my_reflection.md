@@ -10,4 +10,4 @@
 * Which parts of the challenge did you enjoy?
 * Which parts of the challenge did you find tedious?
 
-<!-- Add your reflection here. Remove the comment markers -->
+Having to reverse engineer and break down a website was very frustrating for this challenge. At many times I asked myself how they get certain features and images to pop the way they do on amazon, and how they're able to organize all the content neatly. I'm not very confident about the compentencies for this challenge, but I will struggle to overcome it.
