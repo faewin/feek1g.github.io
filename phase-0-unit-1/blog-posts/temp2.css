@@ -17,6 +17,7 @@
 	border-radius: 10px;
 }
 #nav_bar a:hover {
+	font-family: 'Raleway', Arial;
 	background-color: yellow;
 }
 
@@ -24,6 +25,7 @@
 	float: right;
 	width: 200px;
 	background-color: gray;
+	font-family: 'Raleway', Arial;
 	margin: 10px;
     text-align: center;
     border-right: 4px solid black;
@@ -53,3 +55,14 @@
 	border-radius: 10px;
 	margin: 10px;
 }
+
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url('font/Raleway-webfont.eot');
+    src: url('font/Raleway-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Raleway-webfont.woff') format('woff'),
+         url('font/Raleway-webfont.ttf') format('truetype'),
+         url('font/Raleway-webfont.svg#Raleway-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
