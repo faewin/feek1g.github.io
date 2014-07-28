@@ -3,6 +3,7 @@ body {
 	padding:0;
 	height: 100%;
 	background-image: url(http://i360.photobucket.com/albums/oo47/perez048/black-gradient-background.png);
+	background-size: 100%;
 }
 
 code {
