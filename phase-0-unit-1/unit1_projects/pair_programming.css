@@ -1,0 +1,61 @@
+body {
+	background-image: url(http://img.wallpaperstock.net/smooth-blue-gradient-wallpapers_36803_2560x1600.jpg);
+	background-size: 100%;
+ }
+        
+header {
+	color:white;
+	text-align: center;   
+	padding: 0;
+	margin: 0;   
+}
+        
+header nav {
+	background-color: gray;
+	color:white;
+	float: left;
+	width: 100%;
+}
+        
+header nav li {
+	list-style-type: none;
+	width: 25%;
+	float: left;
+}       
+header nav li a {
+	color: black; !important;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+header nav li a:hover {
+	background-color: yellow;
+}
+
+header nav li a:visited {
+	color:white;
+	text-decoration: none;
+}
+header nav li a:link {
+	color:white;
+}
+
+section p, h2 {
+	color:white;
+}
+section{
+	margin: 40px;
+	padding: 10px;
+
+}
+
+footer {
+	width: 100%;
+	bottom: 0;
+	left:0;
+	position: absolute;
+	background-color: black;
+	color:white;
+
+}
