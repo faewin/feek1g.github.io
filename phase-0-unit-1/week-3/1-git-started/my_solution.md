@@ -3,43 +3,43 @@ Define the following commands and describe how they work/what they do.
 
 
 #### add
-<!-- Your defnition here -->
+Command brings new files to Gits attention, then allows you to add untracked files to the staging area.
 
 #### branch
-<!-- Your defnition here -->
+Command allows you to create your own branch which is like your own version of a directory that you can modify without messing with the original file.
 
 #### checkout
-<!-- Your defnition here -->
+Command lets you navigate through repository's you want to check.
 
 #### clone
-<!-- Your defnition here -->
+Command lets you create a local copy of a remote repository
 
 #### commit
-<!-- Your defnition here -->
+Command is like the save button, but at the same time also records those changes made incase incase you want to rollback to a previous state
 
 #### fetch
-<!-- Your defnition here -->
+Command allows you to download objects/updates from another repository.
 
 #### log
-<!-- Your defnition here -->
+Command allows you to see the history of all commits made.
 
 #### merge
-<!-- Your defnition here -->
+Command allows you to merge two or more development histories together
 
 #### pull
-<!-- Your defnition here -->
+Commands allows you to download the  most-up-to-date version of your repository to your local computer.
 
 #### push
-<!-- Your defnition here -->
+Command allows you to upload your commited files to a remote repository like GitHub.
 
 #### reset
-<!-- Your defnition here -->
+Command allows you to undo accidental commits
 
 #### rm
-<!-- Your defnition here -->
+Allows you to remove files from repository.
 
 #### status
-
+Command allows you view files inside your repository, and view changed that still need to be commited.
 
 ## Release 4: Git Workflow
 
