@@ -1,0 +1,92 @@
+
+
+<html>
+	<head>
+		<title>Eduardo Frias</title>
+		<link rel="stylesheet" type="text/css" href="http://feek1g.github.io/phase-0-unit-1/unit1_projects/class1/completed/stylesheets/reset.css">
+		<link rel="stylesheet" type="text/css" href="http://feek1g.github.io/phase-0-unit-1/blog-posts/temp2.css">
+		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+	</head>
+
+<body>
+
+<!-- Wrapper -->
+	<div id="wrapper">
+
+<!-- Header -->
+	  <div id="header">
+	  	<img src="http://feek1g.github.io/phase-0-unit-1/blog-posts/banner.jpg" width="100%">
+	  </div>
+<!-- Navigation bar-->
+	  <div id="nav_bar">
+	  	<ul>
+	  		<li><a href="http://feek1g.github.io/index.html">Home</a></li>
+	  		<li><a href="">Product</a></li>
+	  		<li><a href="">About</a></li>
+	  		<li><a href="mailto:feek1g@gmail.com">Contact us</a></li>
+	  	</ul>
+	  </div>
+	   <div id="side_bar">
+	   	 <ul>
+	   	 	<br/>
+			<h4>DEV Bootcamp</h4>
+            <li><a href="http://feek1g.github.io/phase-0-unit-1/blog-posts/week1_technical.html"target="_blank">Technical Blog</a></li>
+			<li><a href="http://feek1g.github.io/phase-0-unit-1/blog-posts/week1_cultural.html"target="_blank">Cultural Blog</a></li>
+			<li><a href="http://feek1g.github.io/phase-0-unit-1/unit1_projects/dbc2.html"target="_blank">Solo Challenge</a></li>
+			<li><a href="http://feek1g.github.io/phase-0-unit-1/unit1_projects/wireframe_sites.html"target="_blank">Wireframe</a></li>
+		 </ul>
+		</div>
+	  <!-- Content -->
+	  <div id="content">
+			<article>
+				<h2> Blocks, Procs, & Lambadas</h2><br>
+				<p>
+					For this week's technical blog challenge I will be going over Blocks, Procs, and Lambadas. Let's dive right in!<br><br>
+				</p>
+
+				<h2> Blocks </h2><br>
+				<p>
+					A Ruby block is just a bit of code that can be executed. Block syntax uses either do..end or brackets { }. For example:<br><br>
+
+					<img src="http://oi59.tinypic.com/2wnv24g.jpg"><br><br>
+				</p>
+				<p>
+					The block of code between do and end, and the curly brackets get executed 3 times. Additionally you can also pass data to a block. Lets modify our bacon example:<br><br>
+
+					<img src="http://oi61.tinypic.com/powtk.jpg"><br><br>
+
+					First we created an array with foods that compliment our yummy bacon. Then we pass this data to our block which in return prints out all the food in the array at each pass.<br><br>
+
+					Although blocks are very useful, you can't save blocks of code into a variable. And this is where Procs come into play.<br><br>
+				</p>
+				<h2> Procs</h2><br>
+				<p>
+					You can think of a proc as a "saved" block: just like you can give a bit of code a name and turn it into a method, you can name a block and turn it into a proc. For example:<br><br>
+
+					<img src="http://oi57.tinypic.com/307p6z9.jpg"><br><br>
+
+					In the example above we created a variable called bacon, and assigned it to a new Proc object which accepts our code block. Then on the second line we call it, also note the ampersand(&), it is used to convert the proc into a block.<br><br>
+				</p>
+				<h2> Lambdas </h2><br>
+				<p>
+					Like Procs, lambadas are objects and essentially identical, with the exception of syntax, and a few behaviour quirks. For example:<br><br>
+
+					<img src="http://oi57.tinypic.com/168d4ro.jpg"><br><br>
+
+					The example above failed because we passed the wrong number of arguments. In this case we called the #times method with our block code, we are also passing the iteration(3) to the block too. Now lets apply what we have learned:<br><br>
+
+					<img src="http://oi61.tinypic.com/xkzvvn.jpg"><br><br>
+
+					Awesome now it ran successfully without any errore. Well that's my time for today! I hope you enjoyed my techinical blog for this week!<br><br>
+
+				</p>
+			
+			</article>
+		</div>
+	<!-- Footer -->
+		<div id="footer"><br /> <small> Copyright 2014 Eduardo Frias</small></div>
+
+		</div>
+	</body>
+</html>
