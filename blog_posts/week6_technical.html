@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Eduardo Frias | Week 6 Technical</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <a href="../index.html" id="logo">
+        <h1>Eduardo Frias</h1>
+        <h2>DevBootcamp Student</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="blog.html" class="selected">Blog Posts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section>
+        <h3> Blocks </h3>
+        <p>
+          For this week's technical blog challenge I will be going over Blocks, Procs, and Lambadas. Let's dive right in!
+          A Ruby block is just a bit of code that can be executed. Block syntax uses either do..end or brackets { }. For example:<br>
+          <img src="http://oi59.tinypic.com/2wnv24g.jpg" alt="picture of code" class="img-code"><br>
+          The block of code between do and end, and the curly brackets get executed 3 times. Additionally you can also pass data to a block. Lets modify our bacon example:<br>
+          <img src="http://oi61.tinypic.com/powtk.jpg" alt="picture of code" class="img-code"><br>
+          First we created an array with foods that compliment our yummy bacon. Then we pass this data to our block which in return prints out all the food in the array at each pass.<br>
+          Although blocks are very useful, you can't save blocks of code into a variable. And this is where Procs come into play.
+        </p>
+        <h3> Procs</h3>
+        <p>
+          You can think of a proc as a "saved" block: just like you can give a bit of code a name and turn it into a method, you can name a block and turn it into a proc. For example:<br>
+          <img src="http://oi57.tinypic.com/307p6z9.jpg" alt="picture of code" class="img-code"><br>
+          In the example above we created a variable called bacon, and assigned it to a new Proc object which accepts our code block. Then on the second line we call it, also note the ampersand(&), it is used to convert the proc into a block.<br>
+        </p>
+        <h3> Lambdas </h3>
+        <p>
+          Like Procs, lambadas are objects and essentially identical, with the exception of syntax, and a few behaviour quirks. For example:<br>
+          <img src="http://oi57.tinypic.com/168d4ro.jpg" alt="picture of code" class="img-code"><br>
+          The example above failed because we passed the wrong number of arguments. In this case we called the #times method with our block code, we are also passing the iteration(3) to the block too. Now lets apply what we have learned:<br>
+          <img src="http://oi61.tinypic.com/xkzvvn.jpg" alt="picture of code" class="img-code"><br>
+          Awesome now it ran successfully without any errors. Well that's my time for today! I hope you enjoyed my techinical blog for this week!
+        </p>
+      </section>
+      <footer>
+        <a href="http://twitter.com"><img src="../img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="http://facebook.com"><img src="../img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+        <p>&copy; 2014 Eduardo Frias.</p>
+      </footer>
+    </div>
+  </body>
+</html>

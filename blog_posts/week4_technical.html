@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Eduardo Frias | Week 4 Technical</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <a href="../index.html" id="logo">
+        <h1>Eduardo Frias</h1>
+        <h2>DevBootcamp Student</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="blog.html" class="selected">Blog Posts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section>
+        <h3> What is an Array?</h3>
+        <p>
+          Well in simplest terms an array is just a list of items in order. We use arrays to store a "collection of items".In Ruby, an array is created by using the left-bracket and right-bracket. Lets a create a basic array:
+          <img src="http://oi62.tinypic.com/zlspe8.jpg" alt="picture of code" class="img-code"><br>
+          This array has four elements. Each element is an integer, and is separated by commas from its neighboring elements. Elements can be accessed by their index. To access a particular element, an array is followed by the index contained within square brackets. For example:
+          <img src="http://oi60.tinypic.com/2emhb3o.jpg" alt="picture of code" class="img-code"><br>
+          The indexing in Ruby starts from 0, so the first element of an array is element 0, and so forth. In this example x[2] was calling the third element of the array. <br><br>
+          To wrap it up arrays are used to store collections of data, and each object in an array can be accessed by using a unique key (index of element). The positioning of an array starts at "0".
+        </p>
+        <h3>What is a Hash?</h3>
+        <p>
+          Well like an array, hashes are also used to store data. However, hashes have a different storage format and way to define each object within a collection.  Additionally hashes are given a key to point to them, which makes them more like a dictionary than a list. For example:
+          <img src="http://oi59.tinypic.com/33ur2qa.jpg" alt="picture of code" class="img-code"><br>
+          The variable storing the hash is dictionary, and it contains four entries which you can prove with the code below:
+          <img src="http://oi57.tinypic.com/okr81d.jpg" alt="picture of code" class="img-code"><br>
+          To wrap things up Hashes store data as well, but act more like a dictionary. To access an element you use a key  to point to them.
+        </p>
+        <h3> How to pick between an array or a hash?</h3>
+        <p>
+          Well that really depends on what kind of data you want to store in your collection.  For example a teacher might want to save her lucky lottery numbers which she can do by creating an array like so:
+          <img src="http://oi57.tinypic.com/2hhgkl0.jpg" alt="picture of code" class="img-code"><br>
+          And, just like that we saved the lucky numbers under the variable lottery_numbers.  Now lets say the following day she graded her students papers and wants to store the data, at this point creating a Hash would be recommended because you can easily access the data using 
+          a key which in this case is the students name.For Example:
+          <img src="http://oi58.tinypic.com/nexkyt.jpg" alt="picture of code" class="img-code"><br>
+        </p>
+      </section>
+      <footer>
+        <a href="http://twitter.com"><img src="../img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="http://facebook.com"><img src="../img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+        <p>&copy; 2014 Eduardo Frias.</p>
+      </footer>
+    </div>
+  </body>
+</html>

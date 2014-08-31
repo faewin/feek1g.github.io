@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Eduardo Frias | Week 5 Technical</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <a href="../index.html" id="logo">
+        <h1>Eduardo Frias</h1>
+        <h2>DevBootcamp Student</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="blog.html" class="selected">Blog Posts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section>
+      <h3> The Best Ruby Shortcut</h3>
+        <p>
+          This week I was introduced to the "to_proc" shortcut. The best way to explain it is by actually showing you. Take the code  below for instance:<br>
+          <img src="http://oi61.tinypic.com/2hozo09.jpg" alt="picture of code" class="img-code"><br>
+          In this example the array object [1,2,3] calls map, and says "Give me a block of code, and I will execute it on every element in this array." It will iterate through each item in array [1,2,3] and will execute the block. In this case the the &, and symbol :to_s are being passed into map which invokes the to_proc method. Which returns the following:<br>
+          <img src="http://oi62.tinypic.com/2d0ckzc.jpg" alt="picture of code" class="img-code"><br>
+        </p>
+        <p>
+          Under the hood a method called to_proc is being called with the symbol, then :to_s. In this example the proc returned the result of calling to_s on each element of the array.
+        </p>
+      </section>
+      <footer>
+        <a href="http://twitter.com"><img src="../img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="http://facebook.com"><img src="../img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+        <p>&copy; 2014 Eduardo Frias.</p>
+      </footer>
+    </div>
+  </body>
+</html>
