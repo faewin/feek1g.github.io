@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Eduardo Frias | Week 7 Technical</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <a href="../index.html" id="logo">
+        <h1>Eduardo Frias</h1>
+        <h2>DevBootcamp Student</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="blog.html" class="selected">Blog Posts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section>
+        <img src="http://imgs.xkcd.com/comics/exploits_of_a_mom.png" alt="SQL injection comic" class="img-code"><br>
+        <h3> What is SQL injection? </h3>
+        <p>
+          SQL injection is a code injection technique, that allows a hacker to gain access to a backend database. It is made possible as a result of an improperly coded website that allow SQL statements to be inserted into input fields, querying the database itself. In short it allows a hacker to effectively communicate directly with the database itself.<br><br>
+
+          For example, through SQL injection a hacker can exploit the security vulnerability of the application, and write an SQL query that will show all the username and passwords in the database. This query will then be pasted into an input field such as a login field in a webpage, and once executed the hacker will have access to what should of been secured information or worse like the comic above delete  the database
+        </p>
+        <h3> What can we do to prevent it?</h3>
+        <p>
+          Like the picture above, SQL injections can be prevented by sanitizing the database inputs.This means that the input is made invulnerable before being sent with the SQL query to the database. Before the query is sent to the database, it should be validated in some way.
+        </p>
+      </section>
+      <footer>
+        <a href="http://twitter.com"><img src="../img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="http://facebook.com"><img src="../img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+        <p>&copy; 2014 Eduardo Frias.</p>
+      </footer>
+    </div>
+  </body>
+</html>
