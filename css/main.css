@@ -56,7 +56,7 @@ h3 {
 }
 
 .blog-list li {
-  float: left;
+  float: center;
   width: 45%;
   margin: 2.5%;
   color: #bdc3c7;
